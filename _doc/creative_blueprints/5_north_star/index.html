@@ -1,0 +1,80 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; gap: 2.5rem; }
+  .mode-portrait .sl-layout { flex-direction: column; gap: 1.5rem; }
+  .mode-landscape .sl-left { width: 50%; }
+  .mode-portrait .sl-left { width: 100%; }
+  .mode-landscape .sl-right { width: 50%; }
+  .mode-portrait .sl-right { width: 100%; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <!-- Header -->
+    <div class="mb-2">
+      <span class="text-xs font-semibold tracking-widest uppercase" style="color: #0ea5e9;">North Star Metric</span>
+      <h2 class="font-bold mt-1" style="font-size: 2rem; color: #0f172a;">Weekly Verified Operations</h2>
+    </div>
+    <p class="text-sm mb-6" style="color: #64748b;">Projected impact — based on your inputs</p>
+
+    <div class="sl-layout flex flex-1">
+
+      <!-- Left: Operation definitions -->
+      <div class="sl-left flex flex-col gap-4">
+
+        <div class="rounded-2xl p-5" style="background: #f0f9ff; border: 1px solid #bae6fd;">
+          <p class="text-xs font-semibold uppercase tracking-wider mb-1" style="color: #0ea5e9;">Operation Type 1</p>
+          <h4 class="font-bold text-base mb-1" style="color: #0f172a;">Coding Query Resolved</h4>
+          <p style="color: #475569; font-size: 0.85rem;">A coding question asked and answered — code written, debugged, explained, or reviewed — within a single session.</p>
+        </div>
+
+        <div class="rounded-2xl p-5" style="background: #f0fdf4; border: 1px solid #bbf7d0;">
+          <p class="text-xs font-semibold uppercase tracking-wider mb-1" style="color: #22c55e;">Operation Type 2</p>
+          <h4 class="font-bold text-base mb-1" style="color: #0f172a;">General Question Answered</h4>
+          <p style="color: #475569; font-size: 0.85rem;">A general question submitted and responded to — explanation, summary, or Q&amp;A completed to the user's satisfaction.</p>
+        </div>
+
+        <!-- Assumption chip -->
+        <div class="rounded-xl px-4 py-2 flex items-center gap-2" style="background: #fefce8; border: 1px solid #fde68a;">
+          <span class="text-xs font-bold uppercase" style="color: #b45309;">Assumption — adjust this</span>
+          <span style="color: #78350f; font-size: 0.85rem;">Volume inputs below are estimates; replace with your actual usage.</span>
+        </div>
+
+      </div>
+
+      <!-- Right: WVO projection & value -->
+      <div class="sl-right flex flex-col gap-4">
+
+        <!-- WVO formula -->
+        <div class="rounded-2xl p-5" style="background: #0f172a;">
+          <p class="text-xs font-semibold uppercase tracking-widest mb-3" style="color: #38bdf8;">WVO Projection</p>
+          <div class="space-y-1 mb-4" style="color: #94a3b8; font-size: 0.85rem;">
+            <p>1 user × 5 coding queries/day × 5 days = <span style="color: #f0f9ff; font-weight: 700;">25 coding ops/week</span></p>
+            <p>1 user × 5 general questions/day × 5 days = <span style="color: #f0f9ff; font-weight: 700;">25 Q&amp;A ops/week</span></p>
+          </div>
+          <div class="flex items-baseline gap-2">
+            <span class="font-black" style="font-size: 2.5rem; color: #38bdf8;">50</span>
+            <span style="color: #94a3b8; font-size: 0.9rem;">verified operations / week</span>
+          </div>
+          <p class="text-xs mt-1" style="color: #475569;">= ~2,600 operations / year</p>
+        </div>
+
+        <!-- Value derivation -->
+        <div class="rounded-2xl p-5 flex-1" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+          <p class="text-xs font-semibold uppercase tracking-widest mb-3" style="color: #64748b;">Projected Value</p>
+          <div class="space-y-1 mb-3" style="color: #475569; font-size: 0.85rem;">
+            <p>50 ops/wk × ~20 min saved per op = <strong style="color: #0f172a;">~1,000 min saved/week</strong></p>
+            <p>~16.7 hrs/wk × $15/hr (owner time) = <strong style="color: #0f172a;">~$250/week</strong></p>
+          </div>
+          <div class="flex items-baseline gap-2 mt-2">
+            <span class="font-black text-2xl" style="color: #0ea5e9;">~$13,000</span>
+            <span style="color: #64748b; font-size: 0.85rem;">projected value / year</span>
+          </div>
+          <p class="text-xs mt-2 italic" style="color: #94a3b8;">Assumption — adjust this: 20 min saved per op, $15/hr owner time. Replace with your actual figures.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
