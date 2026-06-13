@@ -23,7 +23,7 @@ A personally owned AI assistant app — same capability tier as leading AI assis
 - **Name**: KYYBOT
 - **Tone**: Helpful, direct, capable — mirrors the practical, conversational tone of leading AI assistants.
 - **Brand feel**: Personal, modern, tech-forward.
-- **Visual palette**: Indigo primary (`#4338CA` / indigo-700), cyan accent (`#06B6D4` / cyan-500), white backgrounds.
+- **Visual palette**: Sky-blue primary (`#0ea5e9`), dark navy panel backgrounds (`#0f172a`), white slide backgrounds.
 
 ## Scope
 
