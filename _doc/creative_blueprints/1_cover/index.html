@@ -1,0 +1,43 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-content { width: 55%; }
+  .mode-portrait .sl-content { width: 100%; }
+  .mode-landscape .sl-visual { width: 45%; }
+  .mode-portrait .sl-visual { width: 100%; height: 260px; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: Content -->
+    <div class="sl-content flex flex-col justify-between p-12" style="background: #0f172a;">
+      <!-- Top badge -->
+      <div>
+        <span class="inline-block text-xs font-semibold tracking-widest uppercase px-3 py-1 rounded-full" style="background: #1e3a5f; color: #7dd3fc;">Personal AI Assistant</span>
+      </div>
+
+      <!-- Headline -->
+      <div>
+        <h1 class="font-black leading-none tracking-tight mb-4" style="font-size: 4.5rem; color: #f0f9ff;">KYYBOT</h1>
+        <p class="font-light leading-snug mb-8" style="font-size: 1.35rem; color: #94a3b8;">Your own AI. Your name on it.<br>Code, questions, conversations — all yours.</p>
+        <div class="w-12 h-1 rounded-full" style="background: #38bdf8;"></div>
+      </div>
+
+      <!-- Attribution -->
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: Visual -->
+    <div class="sl-visual flex items-center justify-center overflow-hidden" style="background: #0ea5e9;">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=Futuristic%20AI%20assistant%20interface%2C%20glowing%20chat%20bubbles%20and%20code%20lines%2C%20deep%20blue%20dark%20background%2C%20premium%20minimal%20tech%20aesthetic"
+        alt="KYYBOT visual"
+        class="w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</section>
