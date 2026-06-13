@@ -1,0 +1,77 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; gap: 2.5rem; }
+  .mode-portrait .sl-layout { flex-direction: column; gap: 1.5rem; }
+  .mode-landscape .sl-col { width: 50%; }
+  .mode-portrait .sl-col { width: 100%; }
+  .mode-landscape .sl-visual { display: flex; }
+  .mode-portrait .sl-visual { display: none; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <!-- Header -->
+    <div class="mb-8">
+      <span class="text-xs font-semibold tracking-widest uppercase" style="color: #0ea5e9;">Foundation</span>
+      <h2 class="font-bold mt-1" style="font-size: 2rem; color: #0f172a;">Problem & Solution</h2>
+    </div>
+
+    <!-- Two columns -->
+    <div class="sl-layout flex flex-1">
+
+      <!-- Problem -->
+      <div class="sl-col flex flex-col justify-start">
+        <div class="flex items-center gap-2 mb-4">
+          <div class="w-8 h-8 rounded-full flex items-center justify-center text-white font-bold text-sm" style="background: #ef4444;">!</div>
+          <h3 class="font-bold text-lg" style="color: #0f172a;">The Problem</h3>
+        </div>
+        <p class="leading-relaxed mb-4" style="color: #475569; font-size: 0.95rem;">
+          Popular AI assistants are powerful — but they are products you borrow, not tools you own. Your conversations, your brand, your identity as a developer or creator disappear into someone else's platform.
+        </p>
+        <ul class="space-y-3">
+          <li class="flex items-start gap-2">
+            <span class="mt-1 w-2 h-2 rounded-full flex-shrink-0" style="background: #ef4444;"></span>
+            <span style="color: #475569; font-size: 0.9rem;">No personal identity — you use ChatGPT, not your own AI.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="mt-1 w-2 h-2 rounded-full flex-shrink-0" style="background: #ef4444;"></span>
+            <span style="color: #475569; font-size: 0.9rem;">Fragmented tools — separate apps for coding help, Q&amp;A, and chat.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="mt-1 w-2 h-2 rounded-full flex-shrink-0" style="background: #ef4444;"></span>
+            <span style="color: #475569; font-size: 0.9rem;">No ownership — your assistant carries another brand's name.</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Divider -->
+      <div class="w-px mx-4 self-stretch" style="background: #e2e8f0;"></div>
+
+      <!-- Solution -->
+      <div class="sl-col flex flex-col justify-start">
+        <div class="flex items-center gap-2 mb-4">
+          <div class="w-8 h-8 rounded-full flex items-center justify-center text-white font-bold text-sm" style="background: #0ea5e9;">✓</div>
+          <h3 class="font-bold text-lg" style="color: #0f172a;">The Solution</h3>
+        </div>
+        <p class="leading-relaxed mb-4" style="color: #475569; font-size: 0.95rem;">
+          KYYBOT is a personally owned AI assistant app — the same capability tier as leading AI assistants, but yours. Your name on it. Your app. Built for coding help and general Q&amp;A in one unified place.
+        </p>
+        <ul class="space-y-3">
+          <li class="flex items-start gap-2">
+            <span class="mt-1 w-2 h-2 rounded-full flex-shrink-0" style="background: #0ea5e9;"></span>
+            <span style="color: #475569; font-size: 0.9rem;">One personal AI — branded as KYYBOT, owned by you.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="mt-1 w-2 h-2 rounded-full flex-shrink-0" style="background: #0ea5e9;"></span>
+            <span style="color: #475569; font-size: 0.9rem;">Coding assistance and general Q&amp;A in a single interface.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="mt-1 w-2 h-2 rounded-full flex-shrink-0" style="background: #0ea5e9;"></span>
+            <span style="color: #475569; font-size: 0.9rem;">Always available — your own dedicated assistant, not a shared platform.</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
