@@ -12,29 +12,35 @@ Give the owner a reliable, always-available AI assistant for two primary use cas
 
 ## Target User
 
-A single primary user (the app's owner/creator) who wants a personal AI assistant they can call their own — not a shared SaaS product, but a personally branded tool.
+The app's owner and a small group of close friends — accessible via Chrome browser, no install required. Not a public product; a personal tool shared within a trusted circle.
 
 ## Positioning
 
-A personally owned AI assistant app — same capability tier as leading AI assistants, but under the owner's own name and brand (KYYBOT).
+A personally owned AI assistant app — same capability tier as leading AI assistants, but under the owner's own name and brand (KYYBOT). Runs as a web app; shareable via a URL in Chrome.
 
 ## Brand & Tone
 
 - **Name**: KYYBOT
 - **Tone**: Helpful, direct, capable — mirrors the practical, conversational tone of leading AI assistants.
-- **Brand feel**: Personal, modern, tech-forward.
-- **Visual palette**: Sky-blue primary (`#0ea5e9`), dark navy panel backgrounds (`#0f172a`), white slide backgrounds.
+- **Brand feel**: Personal, modern, cyber/tech-forward.
+- **App UI palette**: Deep navy (`#0a0f1e`) background, electric cyan (`#00d4ff`) accents, dark chat bubbles.
+- **Deck/presentation palette**: White backgrounds, sky-blue (`#0ea5e9`) accents.
 
 ## Scope
 
-- AI-powered chat interface
+- AI-powered chat interface with scrollable message thread
 - Coding help (code generation, debugging, explanation, review)
 - General question answering and conversation
-- **Multilingual UI** — language switcher to toggle interface language (Indonesian, English, and more)
-- Personal use (single-owner app)
+- Rich code rendering — syntax-highlighted code blocks with language label and one-click copy button (powered by `highlight.js` github-dark theme)
+- Typing indicator while AI is responding
+- Sidebar with "New Chat" button and session preview
+- Welcome screen with configurable suggestion prompts
+- Web app — no install, runs in Chrome browser
+- Shareable with friends via URL (small trusted group, not public)
 
 ## What It Is Not (Current Scope)
 
 - Not a multi-tenant SaaS product
-- No team collaboration features at this stage
+- No team collaboration or multi-user account management
 - No domain-specific vertical focus — general-purpose AI assistant
+- Not a mobile app (no Play Store release)
