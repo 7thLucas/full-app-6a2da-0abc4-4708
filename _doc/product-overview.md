@@ -30,6 +30,7 @@ A personally owned AI assistant app — same capability tier as leading AI assis
 - AI-powered chat interface
 - Coding help (code generation, debugging, explanation, review)
 - General question answering and conversation
+- **Multilingual UI** — language switcher to toggle interface language (Indonesian, English, and more)
 - Personal use (single-owner app)
 
 ## What It Is Not (Current Scope)
